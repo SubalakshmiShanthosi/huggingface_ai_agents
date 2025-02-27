@@ -17,14 +17,13 @@ What all information does the Tool need?
 Previous example of using web_search tool weather to give accurate weather information for user ask -
     LLM will generate text in form of code, to invoke the tool
 
-Example instruction in system_message 
-    You will have access to the following tools: 
+Example instruction in system_message
+    You will have access to the following tools:
     {tools_Description}
 
 Precise and accurate description of - what functionality the tool does and the exact inputs to the tool - JSON format
 Auto-formatting Tool sections is also possible instead of providing textual description of what tool does and what input it expects.
 Programmatically describe what the tool does, what input it expects - @tool decorator python function code for tool
-
 
 Breakdown of generic tool class
     1. tool name
